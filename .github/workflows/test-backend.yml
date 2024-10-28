@@ -22,4 +22,3 @@ jobs:
 
       - name: Build and test with Maven
         run: mvn -B verify sonar:sonar -Dsonar.projectKey=Elea54_TPDevOps2 -Dsonar.organization=elea54 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }} --file ./simple-api/pom.xml
-#essai
