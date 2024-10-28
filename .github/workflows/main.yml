@@ -67,4 +67,4 @@ jobs:
           tags: ${{secrets.DOCKER_USERNAME}}/tp-devops-simple-api:latest
           push: ${{ github.ref == 'refs/heads/main' }}
 
-#          O scour
+#          O scour a nouveau
